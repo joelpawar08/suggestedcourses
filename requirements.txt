@@ -1,7 +1,7 @@
 fastapi
-uvicorn
 pdfplumber
 requests
 pydantic
 groq
+uvicorn
 python-multipart
