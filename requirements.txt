@@ -4,3 +4,4 @@ pdfplumber
 requests
 pydantic
 groq
+python-multipart
