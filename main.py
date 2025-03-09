@@ -46,7 +46,7 @@ def extract_text_from_pdf(pdf_file: UploadFile) -> str:
         raise HTTPException(status_code=500, detail=f"PDF Processing Error: {str(e)}")
 
 
-def analyze_skill_gap(resume_text: str, job_desc: str) -> str:
+def analyze_skill_gap(resume_text: str, jobDescription: str) -> str:
     """Use Groq AI to analyze skill gaps based on resume and job description."""
     try:
         response = groq_client.chat.completions.create(
